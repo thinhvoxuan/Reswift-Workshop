@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142879801D4749B9007EB97D /* ReducerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1428797F1D4749B9007EB97D /* ReducerTests.swift */; };
+		142879821D474BD1007EB97D /* StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142879811D474BD1007EB97D /* StoreTests.swift */; };
+		142879841D474D72007EB97D /* MiddlewareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142879831D474D72007EB97D /* MiddlewareTests.swift */; };
+		142879861D474DA3007EB97D /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142879851D474DA3007EB97D /* Action.swift */; };
+		142879881D474DC7007EB97D /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142879871D474DC7007EB97D /* CounterReducer.swift */; };
+		142879891D474DE1007EB97D /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142879851D474DA3007EB97D /* Action.swift */; };
+		1428798A1D474DE1007EB97D /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142879871D474DC7007EB97D /* CounterReducer.swift */; };
 		14312BE91D4733E300E215F9 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14312BE81D4733E300E215F9 /* Global.swift */; };
 		14312BEC1D47341100E215F9 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14312BEB1D47341100E215F9 /* AppState.swift */; };
 		149310BC1D47332C006C89FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149310BB1D47332C006C89FA /* AppDelegate.swift */; };
@@ -14,8 +21,8 @@
 		149310C11D47332C006C89FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149310BF1D47332C006C89FA /* Main.storyboard */; };
 		149310C31D47332C006C89FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149310C21D47332C006C89FA /* Assets.xcassets */; };
 		149310C61D47332C006C89FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149310C41D47332C006C89FA /* LaunchScreen.storyboard */; };
-		149310D11D47332C006C89FA /* Reswift_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149310D01D47332C006C89FA /* Reswift_CounterTests.swift */; };
 		149310DC1D47332C006C89FA /* Reswift_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149310DB1D47332C006C89FA /* Reswift_CounterUITests.swift */; };
+		14E062541D474837005567E0 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14312BEB1D47341100E215F9 /* AppState.swift */; };
 		49DF2539BC2D1E807ED50AE3 /* Pods_Reswift_CounterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEF88AFA80AC2435F294E2E /* Pods_Reswift_CounterUITests.framework */; };
 		CC03341CF77CEBCB42F68DC3 /* Pods_Reswift_Counter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916ACFC0F40E358283C2D9E /* Pods_Reswift_Counter.framework */; };
 		D3FEBFF3FB4C68AE4AF6FBDB /* Pods_Reswift_CounterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBD2AD99F06C62ED89D7061 /* Pods_Reswift_CounterTests.framework */; };
@@ -39,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1428797F1D4749B9007EB97D /* ReducerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReducerTests.swift; sourceTree = "<group>"; };
+		142879811D474BD1007EB97D /* StoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreTests.swift; sourceTree = "<group>"; };
+		142879831D474D72007EB97D /* MiddlewareTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddlewareTests.swift; sourceTree = "<group>"; };
+		142879851D474DA3007EB97D /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Action.swift; path = State/Action.swift; sourceTree = "<group>"; };
+		142879871D474DC7007EB97D /* CounterReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CounterReducer.swift; path = State/CounterReducer.swift; sourceTree = "<group>"; };
 		14312BE81D4733E300E215F9 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		14312BEB1D47341100E215F9 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = State/AppState.swift; sourceTree = "<group>"; };
 		149310B81D47332C006C89FA /* Reswift Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reswift Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,7 +61,6 @@
 		149310C51D47332C006C89FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		149310C71D47332C006C89FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		149310CC1D47332C006C89FA /* Reswift CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reswift CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		149310D01D47332C006C89FA /* Reswift_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reswift_CounterTests.swift; sourceTree = "<group>"; };
 		149310D21D47332C006C89FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		149310D71D47332C006C89FA /* Reswift CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reswift CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		149310DB1D47332C006C89FA /* Reswift_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reswift_CounterUITests.swift; sourceTree = "<group>"; };
@@ -93,12 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14312BEA1D47340200E215F9 /* State */ = {
+		14312BEA1D47340200E215F9 /* Reswift */ = {
 			isa = PBXGroup;
 			children = (
 				14312BEB1D47341100E215F9 /* AppState.swift */,
+				142879851D474DA3007EB97D /* Action.swift */,
+				142879871D474DC7007EB97D /* CounterReducer.swift */,
 			);
-			name = State;
+			name = Reswift;
 			sourceTree = "<group>";
 		};
 		149310AF1D47332C006C89FA = {
@@ -126,7 +139,7 @@
 		149310BA1D47332C006C89FA /* Reswift Counter */ = {
 			isa = PBXGroup;
 			children = (
-				14312BEA1D47340200E215F9 /* State */,
+				14312BEA1D47340200E215F9 /* Reswift */,
 				149310BB1D47332C006C89FA /* AppDelegate.swift */,
 				149310BD1D47332C006C89FA /* ViewController.swift */,
 				149310BF1D47332C006C89FA /* Main.storyboard */,
@@ -141,8 +154,10 @@
 		149310CF1D47332C006C89FA /* Reswift CounterTests */ = {
 			isa = PBXGroup;
 			children = (
-				149310D01D47332C006C89FA /* Reswift_CounterTests.swift */,
 				149310D21D47332C006C89FA /* Info.plist */,
+				1428797F1D4749B9007EB97D /* ReducerTests.swift */,
+				142879811D474BD1007EB97D /* StoreTests.swift */,
+				142879831D474D72007EB97D /* MiddlewareTests.swift */,
 			);
 			path = "Reswift CounterTests";
 			sourceTree = "<group>";
@@ -442,8 +457,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				149310BE1D47332C006C89FA /* ViewController.swift in Sources */,
+				142879881D474DC7007EB97D /* CounterReducer.swift in Sources */,
 				149310BC1D47332C006C89FA /* AppDelegate.swift in Sources */,
 				14312BE91D4733E300E215F9 /* Global.swift in Sources */,
+				142879861D474DA3007EB97D /* Action.swift in Sources */,
 				14312BEC1D47341100E215F9 /* AppState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,7 +469,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149310D11D47332C006C89FA /* Reswift_CounterTests.swift in Sources */,
+				14E062541D474837005567E0 /* AppState.swift in Sources */,
+				1428798A1D474DE1007EB97D /* CounterReducer.swift in Sources */,
+				142879841D474D72007EB97D /* MiddlewareTests.swift in Sources */,
+				142879801D4749B9007EB97D /* ReducerTests.swift in Sources */,
+				142879891D474DE1007EB97D /* Action.swift in Sources */,
+				142879821D474BD1007EB97D /* StoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,10 +633,12 @@
 			baseConfigurationReference = ACCB34B85351D9907EF39058 /* Pods-Reswift CounterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Reswift CounterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.geekup.Reswift-CounterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reswift Counter.app/Reswift Counter";
 			};
 			name = Debug;
@@ -624,6 +648,7 @@
 			baseConfigurationReference = 4A63A96DE4ACC237013584C4 /* Pods-Reswift CounterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Reswift CounterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vn.geekup.Reswift-CounterTests";

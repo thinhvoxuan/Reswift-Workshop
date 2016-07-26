@@ -10,6 +10,7 @@ import UIKit
 import ReSwift
 
 class ViewController: UIViewController, StoreSubscriber {
+    @IBOutlet weak var point: UILabel!
     @IBAction func increase(sender: UIButton) {
         mainStore.dispatch(
             CounterActionIncrease()
@@ -30,7 +31,7 @@ class ViewController: UIViewController, StoreSubscriber {
     }
     
     func newState(state: AppState) {
-        print("\(state.counter)")
+        self.point.text = "\(state.counter)"
     }
 
 

@@ -31,16 +31,27 @@
                                     <action selector="decrease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d3p-Sf-XGG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7C7-ni-rF4">
+                                <rect key="frame" x="166" y="104" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Lzz-PO-T98" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Qu-AV-F2g"/>
                             <constraint firstItem="o8M-qd-kIg" firstAttribute="top" secondItem="Lzz-PO-T98" secondAttribute="bottom" constant="8" symbolic="YES" id="LFz-qu-aR2"/>
+                            <constraint firstItem="7C7-ni-rF4" firstAttribute="centerX" secondItem="o8M-qd-kIg" secondAttribute="centerX" id="MYE-Qs-Jfa"/>
+                            <constraint firstItem="7C7-ni-rF4" firstAttribute="top" secondItem="o8M-qd-kIg" secondAttribute="bottom" constant="8" symbolic="YES" id="c1F-n9-rjF"/>
                             <constraint firstItem="Lzz-PO-T98" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="f4P-ab-d3a"/>
                             <constraint firstItem="o8M-qd-kIg" firstAttribute="centerX" secondItem="Lzz-PO-T98" secondAttribute="centerX" id="weP-Rz-v7i"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="point" destination="7C7-ni-rF4" id="f6K-3d-kdy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
