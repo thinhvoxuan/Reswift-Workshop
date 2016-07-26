@@ -14,6 +14,10 @@
 		142879881D474DC7007EB97D /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142879871D474DC7007EB97D /* CounterReducer.swift */; };
 		142879891D474DE1007EB97D /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142879851D474DA3007EB97D /* Action.swift */; };
 		1428798A1D474DE1007EB97D /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142879871D474DC7007EB97D /* CounterReducer.swift */; };
+		1428798C1D474FBB007EB97D /* AddTenMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1428798B1D474FBB007EB97D /* AddTenMiddleware.swift */; };
+		1428798D1D47518E007EB97D /* AddTenMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1428798B1D474FBB007EB97D /* AddTenMiddleware.swift */; };
+		1428798F1D4752D1007EB97D /* LoggingMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1428798E1D4752D1007EB97D /* LoggingMiddleware.swift */; };
+		142879901D475308007EB97D /* LoggingMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1428798E1D4752D1007EB97D /* LoggingMiddleware.swift */; };
 		14312BE91D4733E300E215F9 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14312BE81D4733E300E215F9 /* Global.swift */; };
 		14312BEC1D47341100E215F9 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14312BEB1D47341100E215F9 /* AppState.swift */; };
 		149310BC1D47332C006C89FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149310BB1D47332C006C89FA /* AppDelegate.swift */; };
@@ -51,6 +55,8 @@
 		142879831D474D72007EB97D /* MiddlewareTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddlewareTests.swift; sourceTree = "<group>"; };
 		142879851D474DA3007EB97D /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Action.swift; path = State/Action.swift; sourceTree = "<group>"; };
 		142879871D474DC7007EB97D /* CounterReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CounterReducer.swift; path = State/CounterReducer.swift; sourceTree = "<group>"; };
+		1428798B1D474FBB007EB97D /* AddTenMiddleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTenMiddleware.swift; path = State/AddTenMiddleware.swift; sourceTree = "<group>"; };
+		1428798E1D4752D1007EB97D /* LoggingMiddleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoggingMiddleware.swift; path = State/LoggingMiddleware.swift; sourceTree = "<group>"; };
 		14312BE81D4733E300E215F9 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		14312BEB1D47341100E215F9 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = State/AppState.swift; sourceTree = "<group>"; };
 		149310B81D47332C006C89FA /* Reswift Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reswift Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +116,8 @@
 				14312BEB1D47341100E215F9 /* AppState.swift */,
 				142879851D474DA3007EB97D /* Action.swift */,
 				142879871D474DC7007EB97D /* CounterReducer.swift */,
+				1428798B1D474FBB007EB97D /* AddTenMiddleware.swift */,
+				1428798E1D4752D1007EB97D /* LoggingMiddleware.swift */,
 			);
 			name = Reswift;
 			sourceTree = "<group>";
@@ -461,7 +469,9 @@
 				149310BC1D47332C006C89FA /* AppDelegate.swift in Sources */,
 				14312BE91D4733E300E215F9 /* Global.swift in Sources */,
 				142879861D474DA3007EB97D /* Action.swift in Sources */,
+				1428798C1D474FBB007EB97D /* AddTenMiddleware.swift in Sources */,
 				14312BEC1D47341100E215F9 /* AppState.swift in Sources */,
+				1428798F1D4752D1007EB97D /* LoggingMiddleware.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +484,9 @@
 				142879841D474D72007EB97D /* MiddlewareTests.swift in Sources */,
 				142879801D4749B9007EB97D /* ReducerTests.swift in Sources */,
 				142879891D474DE1007EB97D /* Action.swift in Sources */,
+				1428798D1D47518E007EB97D /* AddTenMiddleware.swift in Sources */,
 				142879821D474BD1007EB97D /* StoreTests.swift in Sources */,
+				142879901D475308007EB97D /* LoggingMiddleware.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
