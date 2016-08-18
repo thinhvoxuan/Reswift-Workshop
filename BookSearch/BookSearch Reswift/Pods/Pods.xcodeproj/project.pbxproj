@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063D517E1FFBB3C3DACE4E4A42438AF6 /* Pods-BookSearch ReswiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 895283B510EF245CF6A58084A7C3C050 /* Pods-BookSearch ReswiftUITests-dummy.m */; };
+		16823B8C02E586FC54B1A235B648723C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5ABBC6B57CCAA57E05BD8A244F08F48B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6FC468F1F76A30BBB3BAED31F810DE25 /* Pods-BookSearch Reswift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C83792D25B7E2B852DB87D3EA4B92AA8 /* Pods-BookSearch Reswift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1B998B3EF8C82BA9CAD3D9149A330EA /* Pods-BookSearch ReswiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7402A2D4DCBA1C43AA0F0A81610B5359 /* Pods-BookSearch ReswiftTests-dummy.m */; };
+		EAEBA396B31ADDB47ACF81A50F794C5E /* Pods-BookSearch ReswiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53104AEDD545E749C1F6ABE9498A1DDD /* Pods-BookSearch ReswiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDB923A22ECB11213B0520CE4D6FA7F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F023EEBA952E3E40EEA9FD581356EBE9 /* Pods-BookSearch Reswift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D50FC9DBF02955CDE8F4AF280C37446B /* Pods-BookSearch Reswift-dummy.m */; };
+		FCFA6E11B3D4423A459EDBEE44C9EC0F /* Pods-BookSearch ReswiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E30950ED97C72C098EFD1CE8AA6814A /* Pods-BookSearch ReswiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05388517B68D6C9559293AF426266F58 /* Pods-BookSearch ReswiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookSearch ReswiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		0C18071555E7B510E5B5F83E7301C8F3 /* Pods-BookSearch Reswift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookSearch Reswift-resources.sh"; sourceTree = "<group>"; };
+		0C1E3122C925D36BAEFE43C2A6477C91 /* Pods_BookSearch_ReswiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookSearch_ReswiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA5571FAFF76159F0A66DF57F242FC0 /* Pods-BookSearch ReswiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BookSearch ReswiftTests.modulemap"; sourceTree = "<group>"; };
+		2A3EC9143FE7F1E5AAB545A0975D26F0 /* Pods_BookSearch_Reswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookSearch_Reswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1FC66172B5CD0ADFD8B5CB3D62FF1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB9F48A1EA29762AFAF782EADFE1974 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4435CC51B4E5A364DB3E8B81A65B49CE /* Pods-BookSearch Reswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookSearch Reswift.debug.xcconfig"; sourceTree = "<group>"; };
+		50BDD7B664CCD4A83F932B68C854E21F /* Pods-BookSearch ReswiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookSearch ReswiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53104AEDD545E749C1F6ABE9498A1DDD /* Pods-BookSearch ReswiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookSearch ReswiftTests-umbrella.h"; sourceTree = "<group>"; };
+		5A6A66A937628D05B76CC47CC414C785 /* Pods-BookSearch ReswiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookSearch ReswiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5AFF326A0CCE6F13C2E1D1BD24EC6C0A /* Pods-BookSearch ReswiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookSearch ReswiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E30950ED97C72C098EFD1CE8AA6814A /* Pods-BookSearch ReswiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookSearch ReswiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		69EC3EE1A2A356415FA39470D43739AE /* Pods-BookSearch ReswiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookSearch ReswiftTests-resources.sh"; sourceTree = "<group>"; };
+		7402A2D4DCBA1C43AA0F0A81610B5359 /* Pods-BookSearch ReswiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookSearch ReswiftTests-dummy.m"; sourceTree = "<group>"; };
+		7C544ECE2723591E736E415AF7AD1185 /* Pods-BookSearch Reswift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookSearch Reswift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		895283B510EF245CF6A58084A7C3C050 /* Pods-BookSearch ReswiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookSearch ReswiftUITests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9644F81DE655666CE1FFAA099C5EBF1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		972ED1B19BCF246B9320026B15ACA33E /* Pods-BookSearch Reswift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BookSearch Reswift.modulemap"; sourceTree = "<group>"; };
+		A2CDC7D2E447A5267F44D4CF556616A5 /* Pods-BookSearch Reswift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BookSearch Reswift-acknowledgements.plist"; sourceTree = "<group>"; };
+		A94442E13F5F074AE021CA25D9CF7D2F /* Pods-BookSearch Reswift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookSearch Reswift-frameworks.sh"; sourceTree = "<group>"; };
+		B02404CE79AAF7C75E374A083ED62EF6 /* Pods-BookSearch Reswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookSearch Reswift.release.xcconfig"; sourceTree = "<group>"; };
+		B932164C2509DD365696410C840AAD65 /* Pods-BookSearch ReswiftUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookSearch ReswiftUITests-resources.sh"; sourceTree = "<group>"; };
+		B95A83C34AF3D023EBBA10CD25B70DBD /* Pods-BookSearch ReswiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BookSearch ReswiftUITests.modulemap"; sourceTree = "<group>"; };
+		BB44DA651ED5706B4F60464D86DFD6AC /* Pods-BookSearch ReswiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookSearch ReswiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C83792D25B7E2B852DB87D3EA4B92AA8 /* Pods-BookSearch Reswift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BookSearch Reswift-umbrella.h"; sourceTree = "<group>"; };
+		CBB7F88EB186E4D6AE69BC34B5D6DA30 /* Pods-BookSearch ReswiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookSearch ReswiftUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF9DC316825F4AE6C41E8043BFE24D75 /* Pods-BookSearch ReswiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookSearch ReswiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D50FC9DBF02955CDE8F4AF280C37446B /* Pods-BookSearch Reswift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BookSearch Reswift-dummy.m"; sourceTree = "<group>"; };
+		D5C64A3B7C4094067D37CFF6AD0B827A /* Pods-BookSearch ReswiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BookSearch ReswiftTests-frameworks.sh"; sourceTree = "<group>"; };
+		D74685BD7F5B176B7F5DBDFE72160B82 /* Pods-BookSearch ReswiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BookSearch ReswiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E235DC5A06C8495B41521107C055C7A9 /* Pods-BookSearch ReswiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BookSearch ReswiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED1517C3F84531ABF13FDDD04F7535AC /* Pods_BookSearch_ReswiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookSearch_ReswiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68AFE5D29F66BBB42178C2A6F3CEAEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABBC6B57CCAA57E05BD8A244F08F48B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A60404218649E7E950E67FA93DA26C66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB923A22ECB11213B0520CE4D6FA7F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D296BF5DA4A1918E8EF8F6E16B895F9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16823B8C02E586FC54B1A235B648723C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C5AB3468F178BC444B60BE6009090BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A3EC9143FE7F1E5AAB545A0975D26F0 /* Pods_BookSearch_Reswift.framework */,
+				ED1517C3F84531ABF13FDDD04F7535AC /* Pods_BookSearch_ReswiftTests.framework */,
+				0C1E3122C925D36BAEFE43C2A6477C91 /* Pods_BookSearch_ReswiftUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38573769D46E18466D351F6DF8CE78C8 /* Pods-BookSearch ReswiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB9F48A1EA29762AFAF782EADFE1974 /* Info.plist */,
+				B95A83C34AF3D023EBBA10CD25B70DBD /* Pods-BookSearch ReswiftUITests.modulemap */,
+				50BDD7B664CCD4A83F932B68C854E21F /* Pods-BookSearch ReswiftUITests-acknowledgements.markdown */,
+				5AFF326A0CCE6F13C2E1D1BD24EC6C0A /* Pods-BookSearch ReswiftUITests-acknowledgements.plist */,
+				895283B510EF245CF6A58084A7C3C050 /* Pods-BookSearch ReswiftUITests-dummy.m */,
+				CBB7F88EB186E4D6AE69BC34B5D6DA30 /* Pods-BookSearch ReswiftUITests-frameworks.sh */,
+				B932164C2509DD365696410C840AAD65 /* Pods-BookSearch ReswiftUITests-resources.sh */,
+				5E30950ED97C72C098EFD1CE8AA6814A /* Pods-BookSearch ReswiftUITests-umbrella.h */,
+				BB44DA651ED5706B4F60464D86DFD6AC /* Pods-BookSearch ReswiftUITests.debug.xcconfig */,
+				E235DC5A06C8495B41521107C055C7A9 /* Pods-BookSearch ReswiftUITests.release.xcconfig */,
+			);
+			name = "Pods-BookSearch ReswiftUITests";
+			path = "Target Support Files/Pods-BookSearch ReswiftUITests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6700189ECF6B9524B4891A4CF8600AD9 /* Pods-BookSearch Reswift */ = {
+			isa = PBXGroup;
+			children = (
+				2C1FC66172B5CD0ADFD8B5CB3D62FF1D /* Info.plist */,
+				972ED1B19BCF246B9320026B15ACA33E /* Pods-BookSearch Reswift.modulemap */,
+				7C544ECE2723591E736E415AF7AD1185 /* Pods-BookSearch Reswift-acknowledgements.markdown */,
+				A2CDC7D2E447A5267F44D4CF556616A5 /* Pods-BookSearch Reswift-acknowledgements.plist */,
+				D50FC9DBF02955CDE8F4AF280C37446B /* Pods-BookSearch Reswift-dummy.m */,
+				A94442E13F5F074AE021CA25D9CF7D2F /* Pods-BookSearch Reswift-frameworks.sh */,
+				0C18071555E7B510E5B5F83E7301C8F3 /* Pods-BookSearch Reswift-resources.sh */,
+				C83792D25B7E2B852DB87D3EA4B92AA8 /* Pods-BookSearch Reswift-umbrella.h */,
+				4435CC51B4E5A364DB3E8B81A65B49CE /* Pods-BookSearch Reswift.debug.xcconfig */,
+				B02404CE79AAF7C75E374A083ED62EF6 /* Pods-BookSearch Reswift.release.xcconfig */,
+			);
+			name = "Pods-BookSearch Reswift";
+			path = "Target Support Files/Pods-BookSearch Reswift";
+			sourceTree = "<group>";
+		};
+		6C86BEAB62F664A9903B6E28C5745AD3 /* Pods-BookSearch ReswiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				9644F81DE655666CE1FFAA099C5EBF1D /* Info.plist */,
+				1AA5571FAFF76159F0A66DF57F242FC0 /* Pods-BookSearch ReswiftTests.modulemap */,
+				D74685BD7F5B176B7F5DBDFE72160B82 /* Pods-BookSearch ReswiftTests-acknowledgements.markdown */,
+				5A6A66A937628D05B76CC47CC414C785 /* Pods-BookSearch ReswiftTests-acknowledgements.plist */,
+				7402A2D4DCBA1C43AA0F0A81610B5359 /* Pods-BookSearch ReswiftTests-dummy.m */,
+				D5C64A3B7C4094067D37CFF6AD0B827A /* Pods-BookSearch ReswiftTests-frameworks.sh */,
+				69EC3EE1A2A356415FA39470D43739AE /* Pods-BookSearch ReswiftTests-resources.sh */,
+				53104AEDD545E749C1F6ABE9498A1DDD /* Pods-BookSearch ReswiftTests-umbrella.h */,
+				CF9DC316825F4AE6C41E8043BFE24D75 /* Pods-BookSearch ReswiftTests.debug.xcconfig */,
+				05388517B68D6C9559293AF426266F58 /* Pods-BookSearch ReswiftTests.release.xcconfig */,
+			);
+			name = "Pods-BookSearch ReswiftTests";
+			path = "Target Support Files/Pods-BookSearch ReswiftTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0C5AB3468F178BC444B60BE6009090BB /* Products */,
+				D39BF4355AB5838D7633C4A5B54C6F91 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D39BF4355AB5838D7633C4A5B54C6F91 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6700189ECF6B9524B4891A4CF8600AD9 /* Pods-BookSearch Reswift */,
+				6C86BEAB62F664A9903B6E28C5745AD3 /* Pods-BookSearch ReswiftTests */,
+				38573769D46E18466D351F6DF8CE78C8 /* Pods-BookSearch ReswiftUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E0869C94260A614D130C55255A6CF61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC468F1F76A30BBB3BAED31F810DE25 /* Pods-BookSearch Reswift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DD0FB692267B9D710BAED8AB423D2AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEBA396B31ADDB47ACF81A50F794C5E /* Pods-BookSearch ReswiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF693523EEA9DEBB67BA303C23895CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFA6E11B3D4423A459EDBEE44C9EC0F /* Pods-BookSearch ReswiftUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		089986F896A4A550CFC257F06BADECAA /* Pods-BookSearch ReswiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F581E756DBC99DA9AC7DCD309AE45752 /* Build configuration list for PBXNativeTarget "Pods-BookSearch ReswiftTests" */;
+			buildPhases = (
+				78828A6336634F9066B58A5732EE20B6 /* Sources */,
+				A60404218649E7E950E67FA93DA26C66 /* Frameworks */,
+				2DD0FB692267B9D710BAED8AB423D2AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BookSearch ReswiftTests";
+			productName = "Pods-BookSearch ReswiftTests";
+			productReference = ED1517C3F84531ABF13FDDD04F7535AC /* Pods_BookSearch_ReswiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57D3E71A4457E5F2955F8BD17708A533 /* Pods-BookSearch Reswift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A084E475B9B9D0BE827B162627AFEC /* Build configuration list for PBXNativeTarget "Pods-BookSearch Reswift" */;
+			buildPhases = (
+				2FAC093E94B94D942124A309196A1B6A /* Sources */,
+				D296BF5DA4A1918E8EF8F6E16B895F9F /* Frameworks */,
+				0E0869C94260A614D130C55255A6CF61 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BookSearch Reswift";
+			productName = "Pods-BookSearch Reswift";
+			productReference = 2A3EC9143FE7F1E5AAB545A0975D26F0 /* Pods_BookSearch_Reswift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		67EC921E85064D709E839D43A488D52A /* Pods-BookSearch ReswiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 688C1705F0E9970597DF6AE3F1CDEA09 /* Build configuration list for PBXNativeTarget "Pods-BookSearch ReswiftUITests" */;
+			buildPhases = (
+				0D663BA3526F26E2E61538A9E592845D /* Sources */,
+				68AFE5D29F66BBB42178C2A6F3CEAEBB /* Frameworks */,
+				EAF693523EEA9DEBB67BA303C23895CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BookSearch ReswiftUITests";
+			productName = "Pods-BookSearch ReswiftUITests";
+			productReference = 0C1E3122C925D36BAEFE43C2A6477C91 /* Pods_BookSearch_ReswiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0C5AB3468F178BC444B60BE6009090BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57D3E71A4457E5F2955F8BD17708A533 /* Pods-BookSearch Reswift */,
+				089986F896A4A550CFC257F06BADECAA /* Pods-BookSearch ReswiftTests */,
+				67EC921E85064D709E839D43A488D52A /* Pods-BookSearch ReswiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D663BA3526F26E2E61538A9E592845D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063D517E1FFBB3C3DACE4E4A42438AF6 /* Pods-BookSearch ReswiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FAC093E94B94D942124A309196A1B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F023EEBA952E3E40EEA9FD581356EBE9 /* Pods-BookSearch Reswift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78828A6336634F9066B58A5732EE20B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B998B3EF8C82BA9CAD3D9149A330EA /* Pods-BookSearch ReswiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1305A2AD35179C46C9AB486B4EA91936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02404CE79AAF7C75E374A083ED62EF6 /* Pods-BookSearch Reswift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BookSearch Reswift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookSearch Reswift/Pods-BookSearch Reswift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookSearch_Reswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50458E71842FBD367C2D3C4A2FAB5C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05388517B68D6C9559293AF426266F58 /* Pods-BookSearch ReswiftTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BookSearch ReswiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookSearch ReswiftTests/Pods-BookSearch ReswiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookSearch_ReswiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7B4EBDB16D13F804CDDB68806704BBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB44DA651ED5706B4F60464D86DFD6AC /* Pods-BookSearch ReswiftUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BookSearch ReswiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookSearch ReswiftUITests/Pods-BookSearch ReswiftUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookSearch_ReswiftUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83C2B01D59EB393E897E238FC5D2C088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4435CC51B4E5A364DB3E8B81A65B49CE /* Pods-BookSearch Reswift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BookSearch Reswift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookSearch Reswift/Pods-BookSearch Reswift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookSearch_Reswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE665AC6FB72DB2219CFD61DC9823D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF9DC316825F4AE6C41E8043BFE24D75 /* Pods-BookSearch ReswiftTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BookSearch ReswiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookSearch ReswiftTests/Pods-BookSearch ReswiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookSearch_ReswiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0E0BEC3FC0FFDDAC39E75023AFC23C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E235DC5A06C8495B41521107C055C7A9 /* Pods-BookSearch ReswiftUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BookSearch ReswiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BookSearch ReswiftUITests/Pods-BookSearch ReswiftUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BookSearch_ReswiftUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		688C1705F0E9970597DF6AE3F1CDEA09 /* Build configuration list for PBXNativeTarget "Pods-BookSearch ReswiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B4EBDB16D13F804CDDB68806704BBC9 /* Debug */,
+				F0E0BEC3FC0FFDDAC39E75023AFC23C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A084E475B9B9D0BE827B162627AFEC /* Build configuration list for PBXNativeTarget "Pods-BookSearch Reswift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C2B01D59EB393E897E238FC5D2C088 /* Debug */,
+				1305A2AD35179C46C9AB486B4EA91936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F581E756DBC99DA9AC7DCD309AE45752 /* Build configuration list for PBXNativeTarget "Pods-BookSearch ReswiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE665AC6FB72DB2219CFD61DC9823D71 /* Debug */,
+				50458E71842FBD367C2D3C4A2FAB5C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

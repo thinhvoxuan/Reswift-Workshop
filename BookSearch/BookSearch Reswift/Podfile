@@ -1,0 +1,20 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'BookSearch Reswift' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'Reswift'
+  # Pods for BookSearch Reswift
+
+  target 'BookSearch ReswiftTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'BookSearch ReswiftUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
